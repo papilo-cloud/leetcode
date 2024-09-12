@@ -21,7 +21,7 @@
 
 
 class Solution:
-    def findMaxAverage(self, nums: List[int], k: int) -> float:
+    def findMaxAverage(self, nums, k: int) -> float:
         window = sum(nums[:k])
         max_sum = window
         n = len(nums)
