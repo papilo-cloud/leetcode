@@ -19,10 +19,9 @@
 # -107 <= k <= 107
 
 
-from collections import defaultdict
 class Solution:
     def subarraySum(self, nums: list[int], k: int) -> int:
-        dictt = defaultdict(int)
+        dictt = {}
         count = prefix_sum = 0
 
         dictt[0] = 1
