@@ -28,7 +28,10 @@ class Solution:
         dictt[0] = 1
         for i in range(len(nums)):
             prefix_sum += nums[i]
-            x = prefix_sum - k
+        x = prefix_sum - k
+        if dictt.get(x):
             count += dictt[x]
-            dictt[prefix_sum] += 1
+        
+        if not dictt.get(prefix_sum):
+            dictt[prefix_sum] = 1
         return count
