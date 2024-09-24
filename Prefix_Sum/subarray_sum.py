@@ -28,9 +28,9 @@ class Solution:
         for i in range(len(nums)):
             prefix_sum += nums[i]
         x = prefix_sum - k
-        if dictt.get(x):
+        if x in  dictt:
             count += dictt[x]
         
-        if not dictt.get(prefix_sum):
+        if prefix_sum not in dictt:
             dictt[prefix_sum] = 1
         return count
