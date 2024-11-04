@@ -38,6 +38,9 @@ class Solution:
 
             while l < r:
                 summ = nums[i] + nums[l] + nums[r]
+                if summ == target:
+                    return summ
+                
                 diff = abs(summ - target)
                 if diff < min_diff:
                     min_diff = diff
