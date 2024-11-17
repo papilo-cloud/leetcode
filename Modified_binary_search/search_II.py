@@ -31,7 +31,7 @@
 
 
 class Solution:
-    def search(self, nums: List[int], target: int) -> bool:
+    def search(self, nums: List[int], target: int) -> bool: #type:ignore
         left = 0
         right = len(nums) - 1
 
