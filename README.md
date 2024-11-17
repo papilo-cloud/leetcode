@@ -33,3 +33,6 @@
 
 1. [LinkedList In-place Reversal](https://github.com/papilo-cloud/leetcode/tree/main/Linkedlist/in_place_reversal)
     - The In-place Reversal of a LinkedList pattern reverses parts of a linked list without using extra space.
+
+1. [Two Heaps](https://github.com/papilo-cloud/leetcode/tree/main/Heap/two_heaps)
+    - This approach is quite useful when dealing with the problems where we are given a set of elements such that we can divide them into two parts.
