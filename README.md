@@ -37,7 +37,7 @@
 1. [Two Heaps](https://github.com/papilo-cloud/leetcode/tree/main/Heap/two_heaps)
     - This approach is quite useful when dealing with the problems where we are given a set of elements such that we can divide them into two parts.
 
-1. [Dynamic Programming](https://github.com/papilo-cloud/leetcode/tree/main/Heap/two_heaps)
+1. [Dynamic Programming](https://github.com/papilo-cloud/leetcode/tree/main/Dynamic_programming)
     - Dynamic Programming (DP) involves breaking down problems into smaller subproblems and solving them using a bottom-up or top-down approach.
 
     - Use this pattern for problems with overlapping subproblems and optimal substructure.
