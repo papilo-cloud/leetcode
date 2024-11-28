@@ -19,18 +19,17 @@
 # -107 <= k <= 107
 
 
+from collections import defaultdict
 class Solution:
     def subarraySum(self, nums: list[int], k: int) -> int:
-        dictt = {}
+        dictt = defaultdict(int)
         count = prefix_sum = 0
 
         dictt[0] = 1
         for i in range(len(nums)):
             prefix_sum += nums[i]
-        x = prefix_sum - k
-        if x in  dictt:
+            x = prefix_sum - k
             count += dictt[x]
+            dictt[prefix_sum] += 1
         
-        if prefix_sum not in dictt:
-            dictt[prefix_sum] = 1
         return count
