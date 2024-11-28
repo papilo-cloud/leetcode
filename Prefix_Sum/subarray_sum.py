@@ -31,5 +31,5 @@ class Solution:
             x = prefix_sum - k
             count += dictt[x]
             dictt[prefix_sum] += 1
-        
+            
         return count
